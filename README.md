@@ -1,7 +1,7 @@
 ## A story has to make sense
 
 
-```markdown
+
 # Logical Story Engine
 
 > A writing tool that keeps your story consistent from beginning to end – no more plot holes or characters acting out of character.
@@ -26,11 +26,11 @@ You give it a starting idea. It helps you write a full story where:
 2. Install a few dependencies (Python 3.9+).
 3. Run the engine with a simple text prompt:
 
-```
+
 
 python story_engine.py --seed "A young woman discovers her best friend has been lying to her for years."
 
-```
+
 
 4. The engine will generate a chapter‑by‑chapter outline, check every “because → so” step, and produce a story that holds together.
 
