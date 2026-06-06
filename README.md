@@ -1,23 +1,66 @@
-## 一个故事必须要有逻辑
+## A story has to make sense
 
-# 逻辑叙事引擎 (Logical Story Engine)
 
-> 让 AI 写出前后一致、不会“写崩”的故事。
+```markdown
+# Logical Story Engine
 
-## 🚀 它能做什么？
-- 输入一个故事开头或一句话，自动生成逻辑通顺的完整章节。
-- 保证主角性格从头到尾不“变味”，世界观规则不会前后矛盾。
-- 自动检测故事里的“不合理跳跃”（比如前一秒还在医院，后一秒突然出现在海边）。
-- 提醒作者：之前埋下的伏笔，后面有没有忘记回收。
+> A writing tool that keeps your story consistent from beginning to end – no more plot holes or characters acting out of character.
 
-## 🎯 解决什么痛点？
-- AI 写长篇小说经常“忘了自己是谁”，角色性格飘忽不定。
-- 写了后面忘了前面，情节前后打架。
-- 编剧团队花大量时间修补逻辑 bug。
-- 读者吐槽“剧情崩了”、“人设塌了”。
+## What does it do?
 
-## 🧠 怎么做到的？
-- **逻辑校验**：把故事拆成“因为 → 所以”的小链条，逐一检查是否通顺。
-- **一致性守护**：记住主角的年龄、性格、人际关系，生成新内容时自动核对。
-- **跳跃侦测**：发现“毫无理由”的剧情转折，及时提醒修改。
-- **智能润色**：对有问题的段落自动给出修改建议。
+You give it a starting idea. It helps you write a full story where:
+- Characters stay true to themselves (no sudden personality changes).
+- The plot flows logically (no "wait, how did we get here?" moments).
+- Past events are remembered (foreshadowing doesn't get lost).
+
+## Who is it for?
+
+- Writers who struggle with long‑form consistency.
+- Screenwriters who need to track plot threads.
+- Game developers who build narrative‑driven worlds.
+- Anyone who wants to tell a story without breaking its own rules.
+
+## How to use it
+
+1. Clone the repository.
+2. Install a few dependencies (Python 3.9+).
+3. Run the engine with a simple text prompt:
+
+```
+
+python story_engine.py --seed "A young woman discovers her best friend has been lying to her for years."
+
+```
+
+4. The engine will generate a chapter‑by‑chapter outline, check every “because → so” step, and produce a story that holds together.
+
+> **No technical background required.** The engine does the logic checking for you – you just review and edit the output.
+
+## Example
+
+**Input:**  
+`Elena, a detective, finds a torn photo in her missing partner's drawer.`
+
+**Output (short excerpt):**  
+*“Elena stares at the photo. It was taken two days before he vanished. Her hand shakes – not from fear, but from the realisation that the person in the background is her own boss.”*
+
+The engine ensures that later chapters never forget the photo, the boss's role, or Elena's emotional state.
+
+## License
+
+- **Free for personal / research use.**
+- **Commercial use requires permission.**  
+  Contact: `ai@nohnlins.com`
+
+## Get started
+
+```bash
+git clone https://github.com/nohn3043-arch/logical-story-engine.git
+cd logical-story-engine
+pip install -r requirements.txt
+python story_engine.py
+```
+
+Happy writing – without the headaches. ✍️
+
+```
