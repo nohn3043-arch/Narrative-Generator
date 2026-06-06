@@ -22,9 +22,3 @@ A story generator that keeps characters and plot consistent, without logical hol
 - **一致性守护**：记住主角的年龄、性格、人际关系，生成新内容时自动核对。
 - **跳跃侦测**：发现“毫无理由”的剧情转折，及时提醒修改。
 - **智能润色**：对有问题的段落自动给出修改建议。
-
-## 🛠 快速开始
-```bash
-git clone https://github.com/nohn3043-arch/logical-story-engine.git
-cd logical-story-engine
-python story_engine.py
