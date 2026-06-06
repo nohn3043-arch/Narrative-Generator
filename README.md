@@ -2,7 +2,7 @@
 
 
 
-# Logical Story Engine
+# Story Engine
 
 > A writing tool that keeps your story consistent from beginning to end – no more plot holes or characters acting out of character.
 
@@ -55,8 +55,8 @@ The engine ensures that later chapters never forget the photo, the boss's role, 
 ## Get started
 
 ```bash
-git clone https://github.com/nohn3043-arch/logical-story-engine.git
-cd logical-story-engine
+git clone https://github.com/nohn3043-arch/story-engine.git
+cd story-engine
 pip install -r requirements.txt
 python story_engine.py
 ```
