@@ -1,5 +1,4 @@
-# Narrative-Generator
-A story generator that keeps characters and plot consistent, without logical holes.
+## 一个故事必须要有逻辑
 
 # 逻辑叙事引擎 (Logical Story Engine)
 
